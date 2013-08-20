@@ -3,6 +3,7 @@ var body = $('body');
 var userpanel;
 var username;
 
+$("#footer").css("margin-bottom", "50px");
 
 if($(".dark").length!=0)
 	beginCreateAuchUserPanel();
