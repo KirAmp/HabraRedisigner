@@ -1,0 +1,132 @@
+<html>
+<head>
+	<title>ХабраРедизайнер</title>
+	<style type="text/css">
+		body
+		{
+			padding: 0;
+			margin: 0;
+			background: #5a556b url(http://habrahabr.ru/images/company/stub/stars.bottom.png) repeat center top;
+		}
+		
+		.stars 
+		{
+			background: #5a556b url(http://habrahabr.ru/images/system/page404.bg.png) no-repeat center top;
+			max-width: 1000px;
+			margin: auto;
+			margin-top: 7px;
+			position: relative;
+			height: calc(100% - 10px);
+		}
+		
+		.pageSettings {
+			text-align: center;
+			padding: 40px 0 0;
+			position: relative;
+		}
+		
+		.pageSettings .title {
+			padding: 16px 0;
+			text-transform: uppercase;
+			color: #f9efdd;
+			font-size: 29px;
+			border-top: 3px double #e6dccf;
+			border-bottom: 3px double #e6dccf;
+			display: inline-block;
+			position: relative;
+			min-width: 120px;
+			font-family: 'PT Sans', sans-serif;
+		}
+		.title .label_top {
+			font-size: 13px;
+			font-style: italic;
+			text-transform: capitalize;
+			position: absolute;
+			left: 50%;
+			top: -11px;
+			background: #5a556b;
+			width: 100px;
+			text-align: center;
+			margin-left: -50px;
+		}
+		
+		.title .label_bottom {
+			background: #5a556b url(http://habrahabr.ru/images/company/stub/dot.png) no-repeat center top;
+			width: 11px;
+			height: 11px;
+			padding: 0 7px;
+			position: absolute;
+			left: 50%;
+			bottom: -7px;
+			margin-left: -12px;
+		}
+		
+		
+		.page {
+			width: 500px;
+			background: #fff;
+			position: absolute;
+			left: 230px;
+			top: 150px;
+			border-radius: 5px;
+			padding: 10px 20px;
+			text-align: left;
+			font-family: Arial;
+		}
+		
+		a:hover {
+			color: #4d7285;
+		}
+		
+		a {
+			color: #6DA3BD;
+		}
+		
+		a.user_link {
+			padding-left: 14px;
+			color: #666;
+			font: normal 92.4%/1.5em arial;
+			background: url(http://habrahabr.ru/images/bg-user2.gif) 0 60% no-repeat;
+		}
+		
+		.description_with_icon {
+			background: url('http://habrahabr.ru/images/form.warning.png') no-repeat 0px 0px;
+			padding-left: 50px;
+			font-size: 11px;
+			color: #999999;
+			padding-top: 10px;
+			min-height: 35px;
+		}
+	</style>
+	<script src="../js/options.js"></script>
+</head>
+<body>	
+	<div class="stars">
+		<div class="pageSettings">
+			<div class="title">
+				<div class="label_top">Планетарные</div>
+				Настройки
+				<div class="label_bottom"></div>
+			</div>
+			<div class="page">
+				<h3>ХабраРедизайнер</h3>
+				<ul>
+					<li>Страница в магазине <a href="https://chrome.google.com/webstore/detail/%D1%85%D0%B0%D0%B1%D1%80%D0%B0%D1%80%D0%B5%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80/nfikgkojogpagdfamabfkedgilcciemo">Chrome</a>
+					<li>Проект на <a href="https://github.com/KirAmp/HabraRedisigner">GitHub</a>
+					<li>Автор <a href="http://habrahabr.ru/users/kiramp/" class="user_link">KirAmp</a>
+				</ul>
+				<b>Большое спасибо</b><br/>
+				<a href="http://habrahabr.ru/users/bo883/" class="user_link">bo883</a><br/>
+				
+				<hr/>
+				<h3>Настройки</h3>
+				<input id="attach_panel" type="checkbox" checked="true"> Прикрепить панель</input><br/>
+				<input id="show_new" type="checkbox" checked="true"> Показывать новое</input><br/>
+				<input id="show_tracker" type="checkbox" checked="true"> Показывать треккер</input>
+				<br/><br/><hr/><div class="description_with_icon">Чтобы настройки вступили в силу, необходимо перезагрузить открытые страницы.</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
